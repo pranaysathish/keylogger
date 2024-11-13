@@ -32,5 +32,12 @@ This is a Python-based keylogger application designed for educational purposes. 
   - `Pillow`
   - `smtplib`
 
-You can install the required libraries using `pip`:
+You can install the required libraries using `pip`
+pip install cryptography pynput win32clipboard requests scipy sounddevice Pillow
 
+## 1 . Generate the Encryption Key
+-python generatekey.py
+## 2 . Run the Keylogger
+-python keylogger.py
+## 3 . Decrypt the Logs (Optional) 
+-python decryptkey.py
